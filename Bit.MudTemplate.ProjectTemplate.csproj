@@ -13,7 +13,7 @@
         <PackageId>Bit.MudTemplate</PackageId>
         <PackageType>Template</PackageType>
         <Title>Bit Platform MudTemplate</Title>
-        <PackageDescription>A template for creating a Todo app base on the Bit-Platform</PackageDescription>
+        <PackageDescription>A template for creating a MudUi app base on the Bit-Platform</PackageDescription>
         <PackageTags>Bit;c#;asp.net;core;template;web;blazor</PackageTags>
         <PackageCopyright>Copyright © Bit Platform 2022</PackageCopyright>
         <PackageIcon>bit-icon-512.png</PackageIcon>
