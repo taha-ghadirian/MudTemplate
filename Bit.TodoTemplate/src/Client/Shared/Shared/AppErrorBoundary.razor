@@ -8,7 +8,7 @@ else if (ErrorContent is null)
 {
     <div class="main">
         <div class="header">
-            <BitIconButton OnClick="Recover" IconName="BitIconName.ChromeClose" />
+            <MudIconButton Variant="Variant.Outlined" OnClick="Recover" Icon="@Icons.Filled.Close"/>
         </div>
         <div>
             <img src="_content/MudTemplate.Client.Shared/images/icons/error-triangle.svg" />
@@ -19,8 +19,8 @@ else if (ErrorContent is null)
             <div class="exception">@CurrentException?.ToString()</div>
         }
         <div class="buttons">
-            <BitButton OnClick="Refresh" ButtonStyle="BitButtonStyle.Primary">Refresh</BitButton>
-            <BitButton OnClick="GoHome" ButtonStyle="BitButtonStyle.Standard">Home</BitButton>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Refresh">Refresh</MudButton>
+            <MudButton Variant="Variant.Outlined" Color="Color.Default" OnClick="GoHome">Home</MudButton>
         </div>
     </div>
 }

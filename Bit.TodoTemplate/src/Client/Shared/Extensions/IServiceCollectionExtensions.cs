@@ -1,4 +1,6 @@
 ﻿//-:cnd:noEmit
+
+using MudBlazor.Services;
 using MudTemplate.Client.Shared.Services.Implementations;
 
 namespace Microsoft.Extensions.DependencyInjection;
@@ -16,6 +18,7 @@ public static class IServiceCollectionExtensions
         services.AddScoped<IAuthenticationService, AuthenticationService>();
         services.AddScoped(sp => (AppAuthenticationStateProvider)sp.GetRequiredService<AuthenticationStateProvider>());
 
+        services.AddMudServices();
         return services;
     }
 }
