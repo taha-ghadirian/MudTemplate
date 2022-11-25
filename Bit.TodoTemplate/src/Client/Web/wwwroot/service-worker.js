@@ -8,13 +8,17 @@ self.assetsInclude = [
     /FabExMDL*/
 ];
 
+// self.assetsExclude = [
+//     /bit\.blazorui\.cupertino\.min\.css$/,
+//     /bit\.blazorui\.cupertino\.css$/,
+//     /bit\.blazorui\.fluent\.min\.css$/,
+//     /bit\.blazorui\.fluent\.css$/,
+//     /bit\.blazorui\.material\.min\.css$/,
+//     /bit\.blazorui\.material\.css$/
+// ];
 self.assetsExclude = [
-    /bit\.blazorui\.cupertino\.min\.css$/,
-    /bit\.blazorui\.cupertino\.css$/,
-    /bit\.blazorui\.fluent\.min\.css$/,
-    /bit\.blazorui\.fluent\.css$/,
-    /bit\.blazorui\.material\.min\.css$/,
-    /bit\.blazorui\.material\.css$/
+    /MudBlazor\.min\.css$/,
+    /MudBlazor\.css$/
 ];
 
 self.externalAssets = [

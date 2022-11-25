@@ -1,0 +1,12 @@
+@import '../Styles/abstracts/_functions.scss';
+
+//::deep *{
+//  margin: 0;
+//  padding: 0;
+//  box-sizing: border-box;
+//}
+
+::deep .mud-layout {
+  min-height: 100vh;
+  background: #fff;
+}
