@@ -27,11 +27,15 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudTemplate.Client.Web", "Client\Web\MudTemplate.Client.Web.csproj", "{37B0BFFF-762E-42C6-A999-80EF9F38BE4C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{6FF861C0-D900-4CE2-A4E6-6FD525EC1A8F}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\dependabot.yml = ..\.github\dependabot.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{6734809E-1C51-492E-8EC1-60199EAAEF8F}"
 	ProjectSection(SolutionItems) = preProject
 		..\.github\workflows\cd.yml = ..\.github\workflows\cd.yml
 		..\.github\workflows\ci.yml = ..\.github\workflows\ci.yml
+		..\.github\workflows\codeql.yml = ..\.github\workflows\codeql.yml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudTemplate.Client.App", "Client\App\MudTemplate.Client.App.csproj", "{405BCDDB-488E-4163-A3DC-DE1105B42078}"
