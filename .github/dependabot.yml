@@ -7,7 +7,7 @@ version: 2
 enable-beta-ecosystems: true
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/Bit.TodoTemplate/src/" # Location of package manifests
+    directory: "/Bit.MudTemplate/src/" # Location of package manifests
     schedule:
       interval: "daily"
     commit-message:

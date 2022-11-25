@@ -61,10 +61,10 @@ jobs:
         dotnet-version: 7.0.x
       
     - name: Dotnet Restore workloads
-      run: dotnet workload restore Bit.TodoTemplate/src/Client/App/MudTemplate.Client.App.csproj -p:BlazorMode=BlazorHybrid -f net7.0-android
+      run: dotnet workload restore Bit.MudTemplate/src/Client/App/MudTemplate.Client.App.csproj -p:BlazorMode=BlazorHybrid -f net7.0-android
     
     - name: Dotnet Build
-      run: dotnet build Bit.TodoTemplate/src/MudTemplate.sln -p:Configuration=Release -p:WebAppDeploymentType="DefaultDeploymentType"
+      run: dotnet build Bit.MudTemplate/src/MudTemplate.sln -p:Configuration=Release -p:WebAppDeploymentType="DefaultDeploymentType"
 
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
